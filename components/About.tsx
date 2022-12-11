@@ -3,11 +3,10 @@ import Jellies from "./Jellies";
 
 const About: React.FC = () => {
 	return (
-		<section>
+		<section className={`flex flex-col bg-white py-20 text-3xl md:text-4xl`}>
 			<div className="container mx-auto px-11">
 				<div className="mx-auto max-w-5xl text-4xl leading-tight tracking-tight">
 					<strong>Brainless Beauties</strong>
-					<br />
 					<p>
 						Jellies are one of mother nature&rsquo;s strangest wonders. They
 						have no bones, brains, teeth, blood or fins — but don&rsquo;t let
@@ -24,7 +23,7 @@ const About: React.FC = () => {
 				</div>
 			</div>
 
-			<div className="container mx-auto mt-28 px-11 text-center">
+			<div className="container z-0 mx-auto mt-28 px-11 text-center">
 				<h2 className="text-2xl xl:text-3xl">
 					There are 4 classes of Cnidarians
 				</h2>
