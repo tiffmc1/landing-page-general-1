@@ -1,13 +1,17 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import { Raleway } from "@next/font/google";
 
 import Masthead from "../components/Masthead";
 import About from "../components/About";
 
+const font = Raleway({
+	subsets: ["latin"],
+});
+
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div className={font.className}>
 			<Head>
 				<title>Jellies</title>
 				<meta
@@ -21,8 +25,8 @@ export default function Home() {
 				<About />
 			</main>
 
-			<footer className={styles.footer}>
-				Powered by <span className={styles.logo}></span>
+			<footer>
+				Powered by <span></span>
 			</footer>
 		</div>
 	);
