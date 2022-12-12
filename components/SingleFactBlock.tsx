@@ -8,7 +8,7 @@ export const SingleFactContainer: React.FC = ({ children }) => (
 
 export const SingleFactBackground: React.FC = () => (
 	<div className="sticky top-0 grid min-h-screen w-full grid-cols-1 lg:grid-cols-2">
-		<div className="bg:black h-[30vh] text-white lg:h-auto lg:bg-white"></div>
+		<div className="h-[30vh] bg-black text-white lg:h-auto lg:bg-white"></div>
 		<div className="h-[70vh] bg-white lg:min-h-screen lg:bg-black"></div>
 	</div>
 );
