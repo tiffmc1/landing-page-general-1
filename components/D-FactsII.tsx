@@ -11,6 +11,7 @@ import {
 	SingleFactLeftSide,
 	SingleFactRightSide,
 } from "./SingleFactBlock";
+import Image from "next/image";
 
 const FactsII = () => (
 	<BlockWrapper numOfPages={3}>
@@ -34,9 +35,12 @@ const FactsII = () => (
 							</div>
 						</SingleFactLeftSide>
 						<SingleFactRightSide progress={progress}>
-							<video autoPlay loop muted playsInline width={1080} height={1920}>
-								<source src="/jellyfish-bioluminescence.mp4" type="video/mp4" />
-							</video>
+							<Image
+								src="/assets/jellyfish-glowing.jpg"
+								width={840}
+								height={1620}
+								alt="jelly"
+							/>
 						</SingleFactRightSide>
 					</SingleFactContainer>
 				)}
@@ -58,7 +62,12 @@ const FactsII = () => (
 							</div>
 						</SingleFactLeftSide>
 						<SingleFactRightSide progress={progress}>
-							Right Side
+							<Image
+								src="/assets/jellyfish-colorful.jpg"
+								width={840}
+								height={1620}
+								alt="jelly"
+							/>
 						</SingleFactRightSide>
 					</SingleFactContainer>
 				)}
@@ -80,7 +89,12 @@ const FactsII = () => (
 							</div>
 						</SingleFactLeftSide>
 						<SingleFactRightSide progress={progress}>
-							Right Side
+							<Image
+								src="/assets/jellyfish-red.jpg"
+								width={840}
+								height={1620}
+								alt="jelly"
+							/>
 						</SingleFactRightSide>
 					</SingleFactContainer>
 				)}
