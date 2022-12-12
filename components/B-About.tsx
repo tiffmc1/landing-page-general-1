@@ -8,10 +8,10 @@ const About: React.FC = () => {
 				<div className="mx-auto max-w-5xl text-4xl leading-tight tracking-tight">
 					<strong>Brainless Beauties</strong>
 					<p>
-						Jellies are one of mother nature&rsquo;s strangest wonders. They
-						have no bones, brains, teeth, blood or fins — but don&rsquo;t let
-						their simple anatomy fool you. These animals are spectacularly
-						diverse and beautiful
+						Jellies are one of mother nature&apos;s strangest wonders. They have
+						no bones, brains, teeth, blood or fins — but don&apos;t let their
+						simple anatomy fool you. These animals are spectacularly diverse and
+						beautiful
 					</p>
 					<a
 						target="_blank"
